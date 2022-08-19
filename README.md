@@ -1,4 +1,4 @@
-# Reshaping Inputs for Convolutional Neural Networks - Some common and uncommon methods
+# EC2: A Copula based Ensemble of CNNs for Malignancy Identification in Breast Histopathology and Cytology Images
 
 This is the official code release for the paper titled -
 

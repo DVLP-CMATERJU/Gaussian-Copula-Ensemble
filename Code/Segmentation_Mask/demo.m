@@ -5,10 +5,11 @@
         [filepath,name,ext] = fileparts(fileNm);
 
         im=imread(fileNm);
-        seg=main_driver(im);
+        seg=main_driver(im); ## Binay Segmentation Mask ##
+        superimposeMask=bitand(seg,im); ## superimpose Mask ##
         
 
-        imwrite(seg,['[save_path for store Mask Image]/',name,'.jpg']);
+        imwrite(superimposeMask,['[save_path for store Mask Image]/',name,'.jpg']);
 
     end
     

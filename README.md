@@ -11,7 +11,8 @@ In the present work, we have explored the potential of Copula-based ensemble of 
 
 ## Repository Descriptions
 Dataset Description
-'''
+
+```
 Dataset_Name
    |-- Original
        |-- Train
@@ -33,8 +34,8 @@ Dataset_Name
        |-- Validation
            |-- Benign
            |-- Malignant
-       
-'''
+```
+
 
 ### External Packages Required
 * Numpy 1.14.2

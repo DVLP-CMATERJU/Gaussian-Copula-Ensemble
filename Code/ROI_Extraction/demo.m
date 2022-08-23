@@ -1,6 +1,7 @@
 
    folder=["Train","Test","Validation"];
-   class=["Benign","malignant"];
+   class=["Benign","Malignant"];
+   
    for i=1:3
    for j=1:2
    ROI_path=['/Dataset_Name/ROI/',folder(i),'/',class(j),'/'] %Path for saving Extracted ROIs%

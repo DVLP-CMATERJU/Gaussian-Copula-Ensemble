@@ -8,4 +8,4 @@ Requirement: MATLAB-2018b
 Run demo.m
 
 Input:
-``` Original Image Data Path```, ``` Superimposed Segmentation Mask Data Path```, ```Saved Path```
+``` Original Image Data Path```, ``` Superimposed Segmentation Mask Data Path```, ```Saved Path for extracted ROIs```

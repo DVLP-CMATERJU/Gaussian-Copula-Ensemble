@@ -15,7 +15,7 @@
         superimposeMask=bitand(seg,im); ## superimpose Mask ##
         
 
-        imwrite(superimposeMask,["/Dataset_Name/Mask/",folder(i),"/",name,".png"]; #ave_path for store Mask Image(Super Impose Image)# 
+        imwrite(superimposeMask,["/Dataset_Name/Mask/",folder(i),"/",name,".png"]; #Save_path for store Mask Image(Super Impose Image)# 
 
     end
     end

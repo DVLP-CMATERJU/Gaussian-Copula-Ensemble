@@ -1,4 +1,4 @@
-    model1=''  #Inpur Model 1#
+    model1=''  #Input Model 1#
     model2=''  #Input Model 2#
     p=30 ## ROI Voting Percentage ##
     data_B_roi=['/Dataset_name/ROI/Test/Benign/'];  %Path of Benign ROIs from Test Set%

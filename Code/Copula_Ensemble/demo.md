@@ -4,4 +4,4 @@
 
 Input: ``` Original and ROI image data Path```
 
-Output: Accuracy, Precision, Recall, F1-Score, Confusion Matrix of the Ensemble Model
+Output: ```Accuracy, Precision, Recall, F1-Score, Confusion Matrix of the Ensemble Model```

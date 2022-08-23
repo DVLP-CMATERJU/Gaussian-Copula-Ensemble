@@ -67,7 +67,7 @@ for idx=1:length(fileArray)
     result(idx+no_B,3)=count_M;
 end
 
-model=load(["./count.mat"]); ## The .mat file where you have saved image wise ROIs count. ## 
+model=load(["./count.mat"]); ## The .mat file where you have saved image wise ROIs count. Run count.m File ## 
 gt=model.gt;
 
 acc=predicte(result,gt,predict_o,no_testdata_original,no_B,no_M,p);

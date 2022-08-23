@@ -29,6 +29,7 @@ torch.cuda.set_device(0)
 c1=[]
 c2=[]
 model_name='resnet18' ## CNN Model Name ##
+d='Original' ## For ROI, Write 'ROI' ##
 
 # Paths
 
@@ -72,6 +73,6 @@ for i,batch in enumerate(data_loader):
 c1_df=pd.DataFrame(c1)
 c2_df=pd.DataFrame(c2)
 
-c1_df.to_csv(save_path+model_name+'_B.csv', index=False, header=False)
-c2_df.to_csv(save_path+model_name+'_M.csv', index=False, header=False)
+c1_df.to_csv(save_path+model_name+'_'+d+'_B.csv', index=False, header=False)
+c2_df.to_csv(save_path+model_name+'_'+d+'_M.csv', index=False, header=False)
 

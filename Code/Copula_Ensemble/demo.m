@@ -1,5 +1,6 @@
     model1=''  #Inpur Model 1#
     model2=''  #Input Model 2#
+    p=30 ## ROI Voting Percentage ##
     data_B_roi=['/Dataset_name/ROI/Test/Benign/'];  %Path of Benign ROIs from Test Set%
     data_M_roi=['/Dataset_name/ROI/Test/Malignant/']; %Path of Malignant ROIs from Test Set%
     data_B=['/Dataset_name/Original/Test/Benign/']; %Path of Original Benign Data from Test Set%
@@ -16,5 +17,5 @@
     no_testdata_roi=no_B_roi+no_M_roi;
     predict=new_copula_roi(model1,model2,no_testdata_roi);
     predict_o=new_copula_org(model1,model2,no_testdata_original);
-    mejority_result_copula( predict,predict_o,no_testdata_original,no_B_roi,no_B,no_M);
+    mejority_result_copula( predict,predict_o,no_testdata_original,no_B_roi,no_B,no_M,p);
     

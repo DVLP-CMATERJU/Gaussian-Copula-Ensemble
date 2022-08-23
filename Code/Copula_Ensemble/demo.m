@@ -1,4 +1,5 @@
-
+    model1=''  #Inpur Model 1#
+    model2=''  #Input Model 2#
     data_B_roi=['/Dataset_name/ROI/Test/Benign/'];  %Path of Benign ROIs from Test Set%
     data_M_roi=['/Dataset_name/ROI/Test/Malignant/']; %Path of Malignant ROIs from Test Set%
     data_B=['/Dataset_name/Original/Test/Benign/']; %Path of Original Benign Data from Test Set%

@@ -13,8 +13,19 @@ In the present work, we have explored the potential of Copula-based ensemble of 
 Dataset Description
 
 ```
+
 Dataset_Name
    |-- Original
+       |-- Train
+           |-- Benign
+           |-- Malignant
+       |-- Test
+           |-- Benign
+           |-- Malignant
+       |-- Validation
+           |-- Benign
+           |-- Malignant
+   |-- Mask
        |-- Train
            |-- Benign
            |-- Malignant

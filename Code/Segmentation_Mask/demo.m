@@ -1,4 +1,7 @@
-    datapath=["Data Path"];
+    folder=["Train","Test","Validation"]
+    
+    for i=1:3
+    datapath=["/Dataset_Name/Original/",folder(i),"/"]; %Data Path of Original Image%
     fileArray = dir(strcat(datapath,'/*.jpg'));
     for idx=1:length(fileArray)
         fileNm = strcat(datapath,'/',fileArray(idx).name);
@@ -12,7 +15,8 @@
         superimposeMask=bitand(seg,im); ## superimpose Mask ##
         
 
-        imwrite(superimposeMask,['[save_path for store Mask Image(Super Impose Image)]/',name,'.png']);
+        imwrite(superimposeMask,["/Dataset_Name/Mask/",folder(i),"/",name,".png"]; #ave_path for store Mask Image(Super Impose Image)# 
 
+    end
     end
     

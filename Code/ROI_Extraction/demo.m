@@ -14,5 +14,5 @@
     fileNm1 = strcat(datapath_mask,'/',fileArray1(idx).name);
     [filepath,name,ext] = fileparts(fileNm);
     disp([fileNm,fileNm1])
-    crop_New(fileNm1,fileNm); 
+    crop_New(fileNm1,fileNm,ROI_path); 
     

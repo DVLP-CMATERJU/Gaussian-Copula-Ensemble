@@ -1,5 +1,6 @@
 
-   ROI_path='[Path for saving Extracted ROIs]'
+   
+   ROI_path='/Dataset_Name/ROI/''[Path for saving Extracted ROIs]'
     if not(isfolder(ROI_path))
 
        mkdir(ROI_path)

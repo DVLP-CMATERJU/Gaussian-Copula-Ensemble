@@ -70,7 +70,7 @@ end
 model=load(["./count.mat"]); ## The .mat file where you have saved image wise ROIs count. ## 
 gt=model.gt;
 
-acc=predicte(result,gt,predict_o,no_testdata_original,no_B,no_M);
+acc=predicte(result,gt,predict_o,no_testdata_original,no_B,no_M,p);
 
 
 end

@@ -2,7 +2,7 @@
 
 Image wise Number of ROIs count: ``` Run count.m``` Information will the saved to ```count.mat``` file.
 
-For Classifier Ensemble along with ROI voting rule: ```Run demo.m```
+For Classifiers Ensemble along with ROI Voting Rule: ```Run demo.m```
 
 Input: ``` Original and ROI image data Path```
 

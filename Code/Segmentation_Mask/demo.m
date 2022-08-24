@@ -1,3 +1,5 @@
+    ## author: Soumyajyoti ##
+    
     folder=["Train","Test","Validation"]
     
     for i=1:3

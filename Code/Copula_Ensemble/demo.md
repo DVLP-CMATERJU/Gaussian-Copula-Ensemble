@@ -1,5 +1,7 @@
 **Gaussian Copula Ensemble among CNN classifiers**
 
+Image wise Number of ROIs count: ``` Run count.m``` Information will the saved to count.mat file.
+
 ```Run demo.m```
 
 Input: ``` Original and ROI image data Path```

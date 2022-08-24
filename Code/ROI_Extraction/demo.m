@@ -1,4 +1,6 @@
 
+   ## author: Soumyajyoti ##
+   
    folder=["Train","Test","Validation"];
    class=["Benign","Malignant"];
    

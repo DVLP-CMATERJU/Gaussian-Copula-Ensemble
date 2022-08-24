@@ -1,3 +1,6 @@
+    ## author: Soumyajyoti ##
+    ## Image wise number of ROIs count ##
+
 datapath=['/Dataset_name/Original/Test/Benign/'];
 datapath1 = ['/Dataset_name/ROI/Test/Benign/'];
 	fileArray = dir(strcat(datapath,'/*.png'));

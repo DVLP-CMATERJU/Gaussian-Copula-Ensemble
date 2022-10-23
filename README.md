@@ -1,8 +1,8 @@
-# GC-Enc: A Copula based Ensemble of CNNs for Malignancy Identification in Breast Histopathology and Cytology Images
+# GC-EnC: A Copula based Ensemble of CNNs for Malignancy Identification in Breast Histopathology and Cytology Images
 
 This is the official code release for the paper titled -
 
-**_"GC-Enc: A Copula based Ensemble of CNNs for Malignancy Identification in Breast Histopathology and Cytology Images"_**
+**_"GC-EnC: A Copula based Ensemble of CNNs for Malignancy Identification in Breast Histopathology and Cytology Images"_**
 
 *Copyright 2022, Soumyajyoti Dey, Shyamali Mitra, Sukanta Chakraborty, Debashri Mondal, Mita Nasipuri and Nibaran Das, All rights reserved.*
 
